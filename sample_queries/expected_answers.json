@@ -1,0 +1,66 @@
+{
+    "Show me total revenue for July 2017": {
+        "total_revenue": "$2,842,012.43",
+        "total_bookings": 4532,
+        "average_daily_rate": "$147.61",
+        "context": "This was significantly higher than earlier months, suggesting strong demand during the peak summer season"
+    },
+    "Which locations had the highest booking cancellations": {
+        "top_locations": [
+            {"country": "Portugal", "cancellations": 9791, "cancellation_rate": "36%"},
+            {"country": "Great Britain", "cancellations": 1985, "cancellation_rate": "19%"},
+            {"country": "Spain", "cancellations": 1862, "cancellation_rate": "26%"},
+            {"country": "France", "cancellations": 1733, "cancellation_rate": "20%"},
+            {"country": "Italy", "cancellations": 1075, "cancellation_rate": "35%"}
+        ]
+    },
+    "how many resort hotel and city hotels are there": {
+        "city_hotels": 53428,
+        "resort_hotels": 33967
+    },
+    "Show me total revenue for market segments": {
+        "market_segments": [
+            {"segment": "Online TA", "revenue": "$6,099,781.97"},
+            {"segment": "Direct", "revenue": "$1,376,103.58"},
+            {"segment": "Offline TA/TO", "revenue": "$1,135,622.85"},
+            {"segment": "Groups", "revenue": "$369,985.67"},
+            {"segment": "Corporate", "revenue": "$287,053.05"},
+            {"segment": "Aviation", "revenue": "$22,738.68"},
+            {"segment": "Complementary", "revenue": "$2,140.57"},
+            {"segment": "Undefined", "revenue": "$30.00"}
+        ]
+    },
+    "What are the cancellation rates": {
+        "overall_cancellation_rate": "27.5%",
+        "total_bookings": 87395,
+        "total_cancellations": 24025,
+        "cancellations_by_channel": [
+            {"channel": "Online Travel Agents", "cancellations": 18245},
+            {"channel": "Offline TA/TO", "cancellations": 2063},
+            {"channel": "Direct Bookings", "cancellations": 1737},
+            {"channel": "Group Bookings", "cancellations": 1335}
+        ]
+    },
+    "Booking trends for different weeks": null,
+    "What is the average price of a hotel booking": {
+        "average_daily_rate": "$106.34"
+    },
+    "Find bookings similar to resort hotels in Portugal": {
+        "findings": [
+            {"detail": "5 bookings found"},
+            {"type": "All Resort Hotels"},
+            {"status": "All checked-out"},
+            {"date_range": "March 2016 to January 2017"},
+            {"market_segments": ["Complementary", "Corporate"]},
+            {"note": "Country information was 'Unknown'"}
+        ]
+    },
+    "Tell me about special requests": {
+        "average_special_requests_per_booking": 0.7,
+        "interpretation": "For every 10 bookings, about 7 special requests are made"
+    },
+    "How many booking changes typically occur": {
+        "average_booking_changes_per_booking": 0.27,
+        "interpretation": "For every 10 bookings, around 3 changes are typically made"
+    }
+}

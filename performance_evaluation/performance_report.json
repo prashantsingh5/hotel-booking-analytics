@@ -1,0 +1,52 @@
+{
+  "performance_summary": {
+    "total_queries": 4,
+    "avg_response_time_ms": 5058.034002780914,
+    "median_response_time_ms": 6384.820461273193,
+    "max_response_time_ms": 7462.4950885772705,
+    "min_response_time_ms": 0.0,
+    "queries_with_llm_enhancement": 2,
+    "category_performance": {
+      "revenue": {
+        "total_queries": 4,
+        "avg_response_time_ms": 6744.045337041219,
+        "max_response_time_ms": 7462.4950885772705,
+        "min_response_time_ms": 5904.92844581604
+      }
+    }
+  },
+  "detailed_query_metrics": [
+    {
+      "query": "Total revenue for July 2017",
+      "category": "revenue",
+      "response_time_ms": 0.0,
+      "response_length": 1053,
+      "use_llm_enhancement": false,
+      "response": "{\n  \"January 2017\": {\n    \"total_bookings\": 2844,\n    \"total_revenue\": 739363.8300000001,\n    \"average_daily_rate\": 74.83075949367088\n  },\n  \"February 2017\": {\n    \"total_bookings\": 3292,\n    \"total_revenue\": 872793.37,\n    \"average_daily_rate\": 78.74954131227217\n  },\n  \"March 2017\": {\n    \"total_bookings\": 3681,\n    \"total_revenue\": 1075781.84,\n    \"average_daily_rate\": 83.84594947025265\n  },\n  \"April 2017\": {\n    \"total_bookings\": 4138,\n    \"total_revenue\": 1662076.31,\n    \"average_daily_rate\": 115.12843160947317\n  },\n  \"May 2017\": {\n    \"total_bookings\": 4575,\n    \"total_revenue\": 1874098.9300000002,\n    \"average_daily_rate\": 120.37301857923498\n  },\n  \"June 2017\": {\n    \"total_bookings\": 4248,\n    \"total_revenue\": 2086781.0,\n    \"average_daily_rate\": 128.76182674199623\n  },\n  \"July 2017\": {\n    \"total_bookings\": 4532,\n    \"total_revenue\": 2842012.4299999997,\n    \"average_daily_rate\": 147.6131222418358\n  },\n  \"August 2017\": {\n    \"total_bookings\": 4381,\n    \"total_revenue\": 3131402.33,\n    \"average_daily_rate\": 168.54932663775395\n  }\n}"
+    },
+    {
+      "query": "Total revenue for July 2017",
+      "category": "revenue",
+      "response_time_ms": 5904.92844581604,
+      "response_length": 986,
+      "use_llm_enhancement": true,
+      "response": "In July 2017, the total revenue from hotel bookings was $2,842,012.43.  This represents the total amount of money brought in from guests booking rooms during that month.  For comparison, here's a quick look at the revenue from the beginning of the year until August:\n\n* **January:** $739,363.83\n* **February:** $872,793.37\n* **March:** $1,075,781.84\n* **April:** $1,662,076.31\n* **May:** $1,874,098.93\n* **June:** $2,086,781.00\n* **July:** $2,842,012.43\n* **August:** $3,131,402.33\n\nAs you can see, July had the highest revenue at that point in the year, though August surpassed it. This data also includes the total number of bookings each month (how many separate room reservations were made) and the average daily rate (ADR).  ADR represents the average price paid for a room per night. July's ADR was $147.61, meaning guests paid that much, on average, for each night they stayed.  The ADR, along with the higher number of bookings (4,532), contributed to the high revenue in July.\n"
+    },
+    {
+      "query": "Revenue by market segment",
+      "category": "revenue",
+      "response_time_ms": 6864.712476730347,
+      "response_length": 1338,
+      "use_llm_enhancement": false,
+      "response": "It looks like you're interested in seeing how much revenue each market segment brings in.  The data I have shows some bookings, but unfortunately, it's missing the actual revenue amounts.  It *does* tell us about some canceled bookings, broken down by market segment, hotel type, and country.  \"Market segment\" refers to how the customer booked their stay (e.g., directly through the hotel, via a travel agent, etc.).\n\nHere's what we can see from the canceled bookings:\n\n* **Undefined Market Segment:** We had a couple of cancellations in Portugal (\"PRT\") at a City Hotel where we don't know how the customer originally booked. One was supposed to arrive on August 3, 2015, and the other on August 5, 2015.  \"Undefined\" likely means the booking system didn't capture how these guests booked.\n\n* **Direct Bookings:**  We had a few cancellations from guests who booked directly with the hotels.  One was at a Resort Hotel in Spain (\"ESP\") with an arrival date of August 4, 2017, another at the same Resort Hotel in Spain with an arrival date of April 11, 2017, and a third at a Resort Hotel in Poland (\"POL\") with an arrival date of March 11, 2017.\n\nTo really understand revenue by market segment, we need the revenue data itself.  Could you let me know where I can find that information? Then I can give you a much more helpful breakdown.\n"
+    },
+    {
+      "query": "Revenue by market segment",
+      "category": "revenue",
+      "response_time_ms": 7462.4950885772705,
+      "response_length": 1308,
+      "use_llm_enhancement": true,
+      "response": "It looks like you're interested in seeing how much revenue each market segment brings in.  The data I found shows some individual bookings, but it doesn't actually have the revenue numbers themselves. It *does* tell us which market segments are showing up in the bookings, along with some other details.\n\n\"Market segment\" just refers to how the customer booked their room (e.g., online travel agent, directly through the hotel, as part of a tour group).  Here's what I found in the bookings:\n\n* **Undefined:** We have a couple of canceled bookings from Portugal (PRT) at a City Hotel where the market segment isn't specified. One arrived on August 3, 2015, and the other on August 5, 2015. This likely means the booking system didn't capture how they booked.\n* **Direct:** We have three canceled bookings where the customer booked directly with the hotel.  Two of these were at a Resort Hotel in Spain (ESP), arriving on August 4, 2017, and April 11, 2017.  There's also one from a Resort Hotel in Poland (POL) arriving on March 11, 2017.\n\nImportant Note: This data only shows canceled bookings and doesn't include revenue information. To analyze revenue by market segment, we'll need to look at data that includes the price of the bookings and excludes cancellations, or specifically shows revenue itself. \n"
+    }
+  ]
+}
